@@ -1,0 +1,444 @@
+main {
+  background-color: #f8f8f8;
+  color: #a5c926;
+}
+main .bannerTop {
+  top: 0;
+  height: 30px;
+  background-color: #a5c926;
+  z-index: 99;
+}
+main .bannerTop .l-bannerTop span {
+  font-size: 12px;
+  color: white;
+}
+main .bannerTop .l-bannerTop span:first-child {
+  padding-right: 5px;
+}
+main .bannerTop .r-bannerTop {
+  list-style-type: none;
+  justify-content: end;
+  align-items: center;
+}
+main .bannerTop .r-bannerTop li {
+  display: flex;
+  justify-content: center;
+  padding: 2px 5px;
+}
+main .bannerTop .r-bannerTop li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .bannerTop .r-bannerTop li a svg {
+  fill: white;
+}
+main .navbar {
+  width: 100%;
+  height: 70px;
+  top: 30px;
+  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.12);
+  z-index: 99;
+}
+main .navbar .navbar-brand {
+  font-size: 22px;
+}
+main .navbar #navbarText ul {
+  padding-left: 36px;
+}
+main .navbar #navbarText ul li {
+  padding: 5px;
+}
+main .navbar #navbarText ul li a {
+  font-size: 14px;
+  color: black;
+}
+main .navbar .navbar-text {
+  display: flex;
+}
+main .navbar .navbar-text ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+main .navbar .navbar-text ul li {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .navbar .navbar-text ul li a {
+  text-decoration: none;
+}
+main .navbar .navbar-text ul li a #green-circle {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  background-color: #a5c926;
+  border-radius: 9px;
+}
+main .hero {
+  margin-top: 100px;
+  min-height: 80vh;
+  width: 100%;
+  background-image: url(../images/5baddd4835e113c6299a48f5_li-tzuni-507346-unsplash.jpg);
+  height: 50vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .hero .hero-text {
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 16px;
+  height: 40vh;
+}
+main .hero .hero-text h4 {
+  font-size: 14px;
+  color: #a5c926;
+}
+main .hero .hero-text p {
+  font-size: 45px;
+  color: black;
+}
+main .hero .hero-text a {
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #a5c926;
+  text-transform: capitalize;
+  transition: 0.4s all;
+}
+main .hero .hero-text a:hover {
+  scale: 1.1;
+  box-shadow: 2px 8px 34px -4px rgb(166, 201, 38);
+}
+@media (max-width: 768px) {
+  main .hero {
+    min-height: 60vh;
+  }
+}
+main .banner {
+  min-height: 50vh;
+}
+main .banner .banner-same {
+  height: 50vh;
+}
+main .banner .banner-same > div {
+  width: 450px;
+  height: 200px;
+  border-radius: 12px;
+  position: relative;
+}
+main .banner .banner-same > div img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+main .banner .banner-same .left-banner-inner {
+  background-color: #ffc02b;
+  justify-content: end;
+  position: relative;
+}
+main .banner .banner-same .left-banner-inner img {
+  left: 0;
+}
+main .banner .banner-same .left-banner-inner h3 {
+  color: white;
+  width: 230px;
+  right: 0;
+  top: 30%;
+}
+main .banner .banner-same .left-banner-inner a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 0px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+main .banner .banner-same .left-banner-inner a:hover {
+  scale: 1.05;
+}
+main .banner .banner-same .right-banner-inner {
+  background-color: #fc6d8b;
+}
+main .banner .banner-same .right-banner-inner img {
+  right: 0;
+}
+main .banner .banner-same .right-banner-inner h3 {
+  color: white;
+  width: 230px;
+  left: 10%;
+  top: 30%;
+}
+main .banner .banner-same .right-banner-inner a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 0px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+main .banner .banner-same .right-banner-inner a:hover {
+  scale: 1.05;
+}
+@media (max-width: 768px) {
+  main .banner {
+    min-height: 25vh;
+  }
+  main .banner .banner-same {
+    height: 25vh;
+  }
+  main .banner .banner-same > div {
+    height: 100px;
+    width: 80%;
+  }
+  main .banner .banner-same > div img {
+    width: 160px;
+    height: 160px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    top: 0;
+  }
+  main .banner .banner-same .left-banner-inner h3 {
+    right: 30px;
+    transform: translateY(-10px);
+  }
+  main .banner .banner-same .left-banner-inner a {
+    bottom: 10px;
+    right: 100px;
+  }
+  main .banner .banner-same .right-banner-inner h3 {
+    left: 60px;
+    transform: translateY(-10px);
+  }
+  main .banner .banner-same .right-banner-inner a {
+    bottom: 10px;
+    left: 50px;
+  }
+}
+main .animals .animalsTop {
+  flex-wrap: nowrap;
+  display: flex;
+}
+main .animals .animalsTop h3 {
+  font-size: 24px;
+  color: black;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+main .animals .animalsTop a {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.79);
+  position: relative;
+}
+main .animals .animalsTop a::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.197);
+  position: absolute;
+  bottom: 0;
+  transition: 0.4s;
+}
+main .animals .animalsTop a:hover::after {
+  background-color: #a5c926;
+}
+main .animals .lin-green,
+main .animals .lin-grey {
+  height: 2px;
+}
+main .animals .lin-green {
+  background-color: #a5c926;
+}
+main .animals .lin-grey {
+  background-color: rgba(0, 0, 0, 0.197);
+}
+main .animals .animalsBottom {
+  background-color: #f8f8f8;
+}
+main .animals .animalsBottom .animal-items {
+  height: 300px;
+  padding: 16px;
+  margin: 0;
+}
+main .animals .animalsBottom .animal-items figure {
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  transition: 0.4s;
+}
+main .animals .animalsBottom .animal-items figure:hover {
+  scale: 1.1;
+  box-shadow: 0px -1px 28px -17px rgba(0, 0, 0, 0.75);
+}
+main .animals .animalsBottom .animal-items figure img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .animals .animalsBottom .animal-items figure figcaption {
+  text-transform: capitalize;
+}
+main .animals .animalsBottom .animal-items figure a {
+  display: flex;
+  width: 86px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  background-color: #a5c926;
+  padding: 0px 6px;
+  border-radius: 10px;
+}
+main .story-parent {
+  background-color: black;
+}
+main .story-parent .story-cont {
+  min-height: 50vh;
+}
+main .story-parent .story-cont .story {
+  min-height: 50vh;
+  background-image: url(../images/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: 0px -200px center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+main .story-parent .story-cont .story::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.396);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+main .story-parent .story-cont .story .story-txt {
+  color: white;
+  position: absolute;
+  text-align: center;
+  z-index: 3;
+}
+main .story-parent .story-cont .story .story-txt h5 {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+main .story-parent .story-cont .story .story-txt h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+main .story-parent .story-cont .story .story-txt a {
+  width: 60px;
+  height: 60px;
+  background-color: #a5c926;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+main .story-parent .story-cont .story .story-txt a:hover {
+  scale: 1.1;
+}
+@media (max-width: 768px) {
+  main .story,
+  main .story-cont {
+    min-height: 100vh;
+  }
+}
+main .available {
+  height: 100vh;
+  align-content: start;
+}
+main .available .top-txt-ava {
+  height: 30vh;
+  align-content: start;
+}
+main .available .top-txt-ava h4 {
+  color: #a5c926;
+  text-align: center;
+}
+main .available .top-txt-ava h2 {
+  color: black;
+  text-align: center;
+}
+main .available .left-ava,
+main .available .right-ava {
+  min-height: 70vh;
+}
+main .available .left-ava {
+  align-content: center;
+}
+main .available .left-ava h3 {
+  font-size: 32px;
+  position: relative;
+}
+main .available .left-ava h3::after {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #a5c926;
+  position: absolute;
+  bottom: -50%;
+  left: 50px;
+}
+main .available .left-ava p {
+  font-size: 16px;
+  color: #999;
+}
+main .available .left-ava span {
+  width: 220px;
+  height: 10px;
+}
+main .available .left-ava span a {
+  text-decoration: none;
+  color: white;
+  background-color: #a5c926;
+  border-radius: 12px;
+  transition: 0.4s;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+main .available .left-ava span a:hover {
+  scale: 1.1;
+}
+main .available .right-ava figure {
+  width: 500px;
+  height: 400px;
+}
+main .available .right-ava figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+}/*# sourceMappingURL=master.css.map */
